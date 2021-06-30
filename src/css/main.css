@@ -1,0 +1,144 @@
+.box {
+	margin: 0 auto;
+	padding: 0px 10px;
+	border-radius: 15px;
+	border: 1px solid white;
+	font-weight: bold;
+	background-color: #F0D2691E;
+}
+
+.invisible {
+	color: #00000000;
+}
+
+.section {
+	font-weight: bold;
+}
+
+.stroka {
+	display: flex;
+}
+
+.user {
+	color: #FFCC99;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 25px;
+	margin-left: 850px;
+}
+
+.txt {
+	color: #FFCC99;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 25px;
+	display: flex;
+	width: 100%;
+}
+
+.txt li a {
+	text-transform: uppercase;
+}
+
+.txt li {
+	margin-right: 50px;
+}
+
+.bt {
+	color: #FFCC99;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 25px;
+}
+
+.street {
+	object-fit: cover;
+	width: 100%;
+	height: 70%;
+}
+
+.yea {
+    animation-name: colka;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 50px;
+}
+
+.yeah {
+	color: #FFCC99;
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 25px;
+	margin-left: 170%;
+}
+
+li {
+	list-style-type: none;
+}
+
+body {
+	background: url('../img/cf.png') no-repeat center top / cover;
+}
+
+.red_button {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 30px 50px;
+	border: 1px solid #FFCC99;
+	width: 250px;
+	font-family: 'Hachi Maru Pop', cursive;
+}
+
+.annka {
+	animation-name: move;
+	animation-duration: 3000ms;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes move {
+	0% {
+		color: black;
+	}
+
+	100% {
+		color:white;
+		transform: translate(500px, 00px);
+	}
+}
+
+.windows {
+	display: flex;
+}
+
+.windows a {
+	margin-left: 120px;
+}
+
+A:link { 
+    text-decoration: none;
+    color: #FFCC99;
+ } 
+
+A:visited { text-decoration: none; color: #FFCC99;} 
+
+A:active { text-decoration: none; color: #FFCC99;}
+
+A:hover {
+    text-decoration: none;
+    color: #D2691E;
+}
+
+@keyframes colka {
+	0% {
+		color: #D2691E;
+	}
+
+	50% {
+		color: #FFCC99;
+	}
+
+	100% {
+		color: brown;
+	}
+}
